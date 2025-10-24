@@ -1,0 +1,128 @@
+body {
+    background-color: rgb(243, 232, 232);
+    
+}
+.container{
+    display: flex;
+}
+
+.txt-1 {
+    background-color: rgb(70, 138, 70);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 50px;
+    text-align: center;
+    border: 5px solid rgb(61, 119, 61);
+}
+.txt-2{
+    background-color: rgb(70, 138, 70);
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: center;
+    border: 5px solid rgb(61, 119, 61);
+}
+header {
+    background-image: url('canchas.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 300px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: white;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
+  }
+  
+  .logo img {
+    width: 120px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .logo h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  h2{
+    color: white;
+;
+  }
+  p{
+    color: white;
+    
+  }
+  .barra-menu {
+    background-color: #FFD700; 
+    padding: 10px 0;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    border: 5px solid #f5cc15; 
+    ;
+  }
+  
+  .barra-menu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .barra-menu li {
+    margin: 0 20px;
+  }
+  
+  .barra-menu a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    transition: color 0.3s;
+  }
+  
+  .barra-menu a:hover {
+    color: #004b8d; 
+  }
+.mn1{
+    list-style: none;
+    padding: 20px;
+   
+}
+
+.mn1 li{
+    position: relative;
+    display: inline-block;
+}
+
+.mn1 li:hover ul{
+    display: block;
+}
+
+.mn1 ul{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0%;
+    background-color: rgb(18, 184, 18);
+}
+
+.mn1 ul li a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.mn1 ul li a:hover{
+    background-color: rgb(15, 136, 15);
+}
+
+.mn1 li a{
+    text-decoration: none;
+    padding: 10px;
+}

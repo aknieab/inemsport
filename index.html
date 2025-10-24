@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InemSport - Inicio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <h1>InemSport</h1>
+        </div>
+        <nav class="menu">
+            <div class="right-menu-items">
+                <a href="login.html" class="user-icon">
+                    <span class="icon-person"></span>
+                </a>
+                <div class="dropdown">
+                    <button class="menu-button">Menú</button>
+                    <div class="dropdown-content">
+                        <a href="restricted-access.html">Foro</a>
+                        <a href="restricted-access.html">Noticias</a>
+                        <a href="#">Prestamos</a>
+                        <a href="#">Espacios</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <div class="carousel-container">
+                <div class="carousel-slides">
+                    <img src="img1.png" alt="Carrusel Imagen 1" class="slide active">
+                    <img src="img2.png" alt="Carrusel Imagen 2" class="slide">
+                    <img src="img3.png" alt="Carrusel Imagen 3" class="slide">
+                    <img src="img4.png" alt="Carrusel Imagen 4" class="slide">
+                </div>
+                <button class="carousel-button prev">&#10094;</button>
+                <button class="carousel-button next">&#10095;</button>
+            </div>
+        </section>
+
+        <section class="content-cards">
+            <div class="card about-us">
+                <div class="card-image-placeholder"></div>
+                <div class="card-content">
+                    <h2>Quienes somos:</h2>
+                    <p>somos un grupo de estudiantes que buscan fomentar el deporte dentro de la institucion. Buscamos conectar mas a los estudientes con los espacios y utencillos otorgados por la institucion de una manera facil, segura e intuitiva.</p>
+                </div>
+            </div>
+
+            <div class="card how-to">
+                <div class="card-image-placeholder"></div>
+                <div class="card-content">
+                    <h2>¿Cómo pedir un prestamo?:</h2>
+                    <p>una vez hagas el inicio de sesion, accede al menu de la parte superior y haz click en el apartado de "utencillos" ahi podras ver la disponibilidad. una vez hayas seleccionado lo que planeas prestar, llena los campos requeridos y reclama el utencillo con el token otorgado.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="carousel.js"></script>
+</body>
+</html>
